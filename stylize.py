@@ -7,7 +7,7 @@ import time
 import cv2
 
 STYLE_TRANSFORM_PATH = "models/checkpoint_7500.pth"
-PRESERVE_COLOR = False
+PRESERVE_COLOR = True
 
 def stylize():
     # Device
