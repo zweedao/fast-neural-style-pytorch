@@ -77,7 +77,7 @@ def train():
     for epoch in range(NUM_EPOCHS):
         print("========Epoch {}/{}========".format(epoch+1, NUM_EPOCHS))
         for content_batch, _ in train_loader:
-            print("Batch " + batch_count)
+            print("Batch ", batch_count)
 
             # Get current batch size in case of odd batch sizes
             curr_batch_size = content_batch.shape[0]
