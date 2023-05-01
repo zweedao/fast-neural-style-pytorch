@@ -14,7 +14,7 @@ import utils
 TRAIN_IMAGE_SIZE = 256
 DATASET_PATH = "dataset"
 NUM_EPOCHS = 1
-STYLE_IMAGE_PATH = "images/mosaic.jpg"
+STYLE_IMAGE_PATH = "images/3d-embroidery.jpeg"
 BATCH_SIZE = 4 
 CONTENT_WEIGHT = 17 # 17
 STYLE_WEIGHT = 50 # 25
