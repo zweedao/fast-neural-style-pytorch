@@ -6,7 +6,7 @@ from torchvision import transforms
 import time
 import cv2
 
-STYLE_TRANSFORM_PATH = "transforms/udnie.pth"
+STYLE_TRANSFORM_PATH = "models/checkpoint_3500.pth"
 PRESERVE_COLOR = False
 
 def stylize():
