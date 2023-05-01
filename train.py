@@ -21,7 +21,7 @@ STYLE_WEIGHT = 50 # 25
 ADAM_LR = 0.001
 SAVE_MODEL_PATH = "models/"
 SAVE_IMAGE_PATH = "images/out/"
-SAVE_MODEL_EVERY = 500 # 2,000 Images with batch size 4
+SAVE_MODEL_EVERY = 2500 # 10,000 Images with batch size 4
 SEED = 35
 PLOT_LOSS = 1
 
@@ -77,6 +77,8 @@ def train():
     for epoch in range(NUM_EPOCHS):
         print("========Epoch {}/{}========".format(epoch+1, NUM_EPOCHS))
         for content_batch, _ in train_loader:
+            print("Batch " + batch_count)
+
             # Get current batch size in case of odd batch sizes
             curr_batch_size = content_batch.shape[0]
 
